@@ -1,6 +1,3 @@
-Here is the entire file content in a single code block.
-
-````markdown
 # C. Roads in Berland
 
 | Time Limit | Memory Limit  |
@@ -39,27 +36,25 @@ Roads are numbered from 1 in the input order. Each pair of cities should be take
 
 **Input**
 
-```text
+```
 2
 0 5
 5 0
 1
 1 2 3
 ```
-````
 
 **Output**
 
-```text
+```
 3
-
 ```
 
 ### Example 2
 
 **Input**
 
-```text
+```
 3
 0 4 5
 4 0 9
@@ -67,16 +62,10 @@ Roads are numbered from 1 in the input order. Each pair of cities should be take
 2
 2 3 8
 1 2 1
-
 ```
 
 **Output**
 
-```text
+```
 17 12
-
-```
-
-```
-
 ```
