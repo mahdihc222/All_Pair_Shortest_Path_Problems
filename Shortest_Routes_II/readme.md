@@ -1,28 +1,46 @@
+```md
 # Shortest Routes Between Cities
 
 ## Problem Description
 
 There are **n cities** and **m roads** between them. Your task is to process **q queries**, where for each query you must determine the **length of the shortest route** between two given cities.
 
-## All roads are **two-way (bidirectional)** and have a positive length.
+All roads are **two-way (bidirectional)** and have a positive length.
+
+---
 
 ## Input
 
 The first line contains three integers:
+
+```
+
 n m q
 
-where:
+```
 
+where:
 - `n` = number of cities
 - `m` = number of roads
 - `q` = number of queries
 
 The next **m lines** describe the roads. Each line contains three integers:
+
+```
+
 a b c
+
+```
+
 meaning there is a road between cities `a` and `b` with length `c`.
 
 The next **q lines** describe the queries. Each line contains two integers:
+
+```
+
 a b
+
+```
 
 For each query, determine the length of the shortest route between cities `a` and `b`.
 
@@ -31,7 +49,6 @@ For each query, determine the length of the shortest route between cities `a` an
 ## Output
 
 For each query, print:
-
 - the length of the **shortest route** between the given cities, or
 - `-1` if **no route exists**.
 
@@ -52,6 +69,7 @@ Each answer should be printed on its own line.
 ## Example
 
 ### Input
+```
 
 4 3 5
 1 2 5
@@ -63,7 +81,10 @@ Each answer should be printed on its own line.
 1 4
 3 2
 
+```
+
 ### Output
+```
 
 5
 5
@@ -71,8 +92,11 @@ Each answer should be printed on its own line.
 -1
 3
 
----
-
 ```
 
+---
+
+## License
+
+This problem is intended for educational and competitive programming practice.
 ```
