@@ -1,4 +1,3 @@
-```md
 # ARBITRAG – Arbitrage
 
 ## Problem Description
@@ -12,11 +11,9 @@ For example, suppose that:
 - 1 French Franc buys **0.21 US Dollars**
 
 Then a trader can start with **1 US Dollar** and convert:
-```
 
 1 × 0.5 × 10.0 × 0.21 = 1.05 US Dollars
 
-```
 
 This results in a **5% profit**, which means arbitrage is possible.
 
@@ -36,12 +33,7 @@ Within a name, no spaces will appear.
 The next line contains one integer **m**, representing the length of the table to follow.
 
 The last **m** lines each contain:
-
-```
-
 ci rij cj
-
-```
 
 where:
 - `ci` is the source currency
@@ -62,17 +54,9 @@ Input is terminated by a value of zero (**0**) for `n`.
 For each test case, print one line telling whether arbitrage is possible or not in the following format:
 
 ```
-
 Case k: Yes
-
-```
-
 or
-
-```
-
 Case k: No
-
 ```
 
 where `k` is the test case number (starting from 1).
@@ -83,7 +67,6 @@ where `k` is the test case number (starting from 1).
 
 ### Input
 ```
-
 3
 USDollar
 BritishPound
@@ -108,7 +91,6 @@ FrenchFranc 0.09 BritishPound
 FrenchFranc 0.19 USDollar
 
 0
-
 ```
 
 ### Output
@@ -132,4 +114,3 @@ Case 2: No
 ## License
 
 This problem is intended for educational and competitive programming practice.
-```
